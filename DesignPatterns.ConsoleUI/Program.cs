@@ -1,2 +1,11 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using DesignPatterns.Core;
+
+#region Behavioral
+
+#region Strategy
+
+DucksGameExecutor.Execute();
+
+#endregion
+
+#endregion
