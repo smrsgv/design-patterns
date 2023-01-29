@@ -1,11 +1,11 @@
 using DesignPatterns.Core.Behavioral.Strategy.DucksGame.Behaviors;
 using DesignPatterns.Core.Behavioral.Strategy.DucksGame.Ducks;
 
-namespace DesignPatterns.Core;
+namespace DesignPatterns.Core.Behavioral.Strategy.DucksGame;
 
-public static class DucksGameExecutor
+public class DucksGameExecutor : IPatternDemoExecutor
 {
-  public static void Execute()
+  public void Execute()
   {
     var mallardDuck = new MallardDuck();
     mallardDuck.Fly();

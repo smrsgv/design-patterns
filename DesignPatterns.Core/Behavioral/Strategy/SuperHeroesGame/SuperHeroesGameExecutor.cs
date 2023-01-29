@@ -3,9 +3,9 @@ using DesignPatterns.Core.Behavioral.Strategy.SuperHeroesGame.SuperPowers;
 
 namespace DesignPatterns.Core.Behavioral.Strategy.SuperHeroesGame;
 
-public static class SuperHeroesGameExecutor
+public class SuperHeroesGameExecutor : IPatternDemoExecutor
 {
-  public static void Execute()
+  public void Execute()
   {
     var result = string.Empty;
     var batman = new Batman();
