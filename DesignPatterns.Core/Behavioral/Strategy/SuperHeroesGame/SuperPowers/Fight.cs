@@ -4,8 +4,8 @@ namespace DesignPatterns.Core.Behavioral.Strategy.SuperHeroesGame.SuperPowers;
 
 public class Fight : ISuperPower
 {
-  public string ExercisePower()
-  {
-    return "fight!";
-  }
+    public string ExercisePower()
+    {
+        return "fight!";
+    }
 }

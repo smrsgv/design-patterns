@@ -1,5 +1,4 @@
-﻿using DesignPatterns.Core.Behavioral.Strategy.SuperHeroesGame.Common;
-using DesignPatterns.Core.Behavioral.Strategy.SuperHeroesGame.Heroes;
+﻿using DesignPatterns.Core.Behavioral.Strategy.SuperHeroesGame.Heroes;
 using DesignPatterns.Core.Behavioral.Strategy.SuperHeroesGame.SuperPowers;
 
 namespace DesignPatterns.Tests.Behavioral.Strategy;

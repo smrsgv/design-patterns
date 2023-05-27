@@ -4,11 +4,11 @@ namespace DesignPatterns.Core.Behavioral.Observer.WeatherMonitoring.Displays;
 
 public class CoffeeShopDisplay : BaseDisplay, IDisplayable
 {
-    private int _temperature;
     private int _humidity;
     private int _pressure;
+    private int _temperature;
 
-    private WeatherData _weatherData;
+    private readonly WeatherData _weatherData;
 
     public CoffeeShopDisplay(WeatherData weatherData)
     {
@@ -18,9 +18,9 @@ public class CoffeeShopDisplay : BaseDisplay, IDisplayable
 
     public void Update()
     {
-        _temperature= _weatherData.Temperature;
-        _humidity= _weatherData.Humidity;
-        _pressure= _weatherData.Pressure;
+        _temperature = _weatherData.Temperature;
+        _humidity = _weatherData.Humidity;
+        _pressure = _weatherData.Pressure;
 
         Display();
     }

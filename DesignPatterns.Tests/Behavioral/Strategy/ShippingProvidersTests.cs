@@ -18,7 +18,7 @@ public class ShippingProvidersTests
         // Assert
         Assert.Equal(200, cost);
     }
-    
+
     [Fact]
     public void ChangeCostOfShipping_WhenProviderIsChanged_ReturnsCorrectCost()
     {

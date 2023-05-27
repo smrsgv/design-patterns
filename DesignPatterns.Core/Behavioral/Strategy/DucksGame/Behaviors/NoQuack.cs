@@ -4,8 +4,8 @@ namespace DesignPatterns.Core.Behavioral.Strategy.DucksGame.Behaviors;
 
 public class NoQuack : IQuackBehavior
 {
-  public string Perform()
-  {
-    return "default quack";
-  }
+    public string Perform()
+    {
+        return "default quack";
+    }
 }

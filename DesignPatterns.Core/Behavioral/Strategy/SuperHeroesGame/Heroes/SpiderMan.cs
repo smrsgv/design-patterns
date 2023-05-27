@@ -5,7 +5,7 @@ namespace DesignPatterns.Core.Behavioral.Strategy.SuperHeroesGame.Heroes;
 
 public class SpiderMan : BaseHero
 {
-  public SpiderMan() : base(new WeaveWeb())
-  {
-  }
+    public SpiderMan() : base(new WeaveWeb())
+    {
+    }
 }

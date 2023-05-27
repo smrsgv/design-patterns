@@ -5,32 +5,32 @@ namespace DesignPatterns.Core.Behavioral.Strategy.DucksGame.Ducks.Common;
 
 public abstract class Duck
 {
-  IQuackBehavior _quackBehavior;
-  IFlyBehavior _flyBehavior;
+    private IFlyBehavior _flyBehavior;
+    private IQuackBehavior _quackBehavior;
 
-  public Duck()
-  {
-    _quackBehavior = new NoQuack();
-    _flyBehavior = new NoFly();
-  }
+    public Duck()
+    {
+        _quackBehavior = new NoQuack();
+        _flyBehavior = new NoFly();
+    }
 
-  public string Quack()
-  {
-    return _quackBehavior.Perform();
-  }
+    public string Quack()
+    {
+        return _quackBehavior.Perform();
+    }
 
-  public string Fly()
-  {
-    return _flyBehavior.Perform();
-  }
+    public string Fly()
+    {
+        return _flyBehavior.Perform();
+    }
 
-  public void SetQuackBehavior(IQuackBehavior qb)
-  {
-    _quackBehavior = qb;
-  }
+    public void SetQuackBehavior(IQuackBehavior qb)
+    {
+        _quackBehavior = qb;
+    }
 
-  public void SetFlyBehavior(IFlyBehavior fb)
-  {
-    _flyBehavior = fb;
-  }
+    public void SetFlyBehavior(IFlyBehavior fb)
+    {
+        _flyBehavior = fb;
+    }
 }

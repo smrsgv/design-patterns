@@ -1,6 +1,7 @@
-using DesignPatterns.Core.Behavioral.Strategy.DucksGame.Behaviors;
 using DesignPatterns.Core.Behavioral.Strategy.DucksGame.Ducks.Common;
 
 namespace DesignPatterns.Core.Behavioral.Strategy.DucksGame.Ducks;
 
-public class MallardDuck : Duck { }
+public class MallardDuck : Duck
+{
+}

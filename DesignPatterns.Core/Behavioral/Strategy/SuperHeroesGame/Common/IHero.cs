@@ -2,7 +2,7 @@ namespace DesignPatterns.Core.Behavioral.Strategy.SuperHeroesGame.Common;
 
 public interface IHero
 {
-  string DoHeroStuff();
+    string DoHeroStuff();
 
-  void ChangeSuperPower(ISuperPower sp);
+    void ChangeSuperPower(ISuperPower sp);
 }

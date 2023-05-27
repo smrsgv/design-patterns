@@ -4,11 +4,11 @@ namespace DesignPatterns.Core.Behavioral.Observer.WeatherMonitoring.Displays;
 
 public class GateDisplay : BaseDisplay, IDisplayable
 {
-    private int _temperature;
     private int _humidity;
     private int _pressure;
+    private int _temperature;
 
-    private WeatherData _weatherData;
+    private readonly WeatherData _weatherData;
 
     public GateDisplay(WeatherData weatherData)
     {
