@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.ConsoleUI", "DesignPatterns.ConsoleUI\DesignPatterns.ConsoleUI.csproj", "{220C5B29-7CCF-4F05-A505-B9E363B6FC02}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Core", "DesignPatterns.Core\DesignPatterns.Core.csproj", "{D36F05C9-4842-4AFB-B767-93B75B88979E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Tests", "DesignPatterns.Tests\DesignPatterns.Tests.csproj", "{A5F62F80-2E8C-4424-88BB-6C63EE2CB324}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -16,13 +16,13 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{220C5B29-7CCF-4F05-A505-B9E363B6FC02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{220C5B29-7CCF-4F05-A505-B9E363B6FC02}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{220C5B29-7CCF-4F05-A505-B9E363B6FC02}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{220C5B29-7CCF-4F05-A505-B9E363B6FC02}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D36F05C9-4842-4AFB-B767-93B75B88979E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D36F05C9-4842-4AFB-B767-93B75B88979E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D36F05C9-4842-4AFB-B767-93B75B88979E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D36F05C9-4842-4AFB-B767-93B75B88979E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5F62F80-2E8C-4424-88BB-6C63EE2CB324}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5F62F80-2E8C-4424-88BB-6C63EE2CB324}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5F62F80-2E8C-4424-88BB-6C63EE2CB324}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5F62F80-2E8C-4424-88BB-6C63EE2CB324}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

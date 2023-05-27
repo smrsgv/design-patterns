@@ -1,7 +1,7 @@
 using DesignPatterns.Core.Behavioral.Strategy.DucksGame.Behaviors;
 using DesignPatterns.Core.Behavioral.Strategy.DucksGame.Behaviors.Common;
 
-namespace DesignPatterns.Core.Behavioral.Strategy.DucksGame.Common;
+namespace DesignPatterns.Core.Behavioral.Strategy.DucksGame.Ducks.Common;
 
 public abstract class Duck
 {
@@ -14,14 +14,14 @@ public abstract class Duck
     _flyBehavior = new NoFly();
   }
 
-  public void Quack()
+  public string Quack()
   {
-    _quackBehavior.Perform();
+    return _quackBehavior.Perform();
   }
 
-  public void Fly()
+  public string Fly()
   {
-    _flyBehavior.Perform();
+    return _flyBehavior.Perform();
   }
 
   public void SetQuackBehavior(IQuackBehavior qb)

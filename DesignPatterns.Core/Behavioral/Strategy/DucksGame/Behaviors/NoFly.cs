@@ -4,8 +4,8 @@ namespace DesignPatterns.Core.Behavioral.Strategy.DucksGame.Behaviors;
 
 public class NoFly : IFlyBehavior
 {
-  public void Perform()
+  public string Perform()
   {
-    Console.WriteLine("no fly");
+    return "no fly";
   }
 }

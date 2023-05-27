@@ -2,7 +2,7 @@
 
 namespace DesignPatterns.Core.Behavioral.Strategy.ShippingProviders.Providers;
 
-public class UPS : IShippingProvider
+public class Ups : IShippingProvider
 {
     public int CalculateCost(int distance)
     {

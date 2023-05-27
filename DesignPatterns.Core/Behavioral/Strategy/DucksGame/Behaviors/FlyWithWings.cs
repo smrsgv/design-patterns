@@ -4,8 +4,8 @@ namespace DesignPatterns.Core.Behavioral.Strategy.DucksGame.Behaviors;
 
 public class FlyWithWings : IFlyBehavior
 {
-  public void Perform()
+  public string Perform()
   {
-    Console.WriteLine("fly with wings");
+    return "fly with wings";
   }
 }

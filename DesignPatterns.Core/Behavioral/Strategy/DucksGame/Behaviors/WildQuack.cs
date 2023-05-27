@@ -4,8 +4,8 @@ namespace DesignPatterns.Core.Behavioral.Strategy.DucksGame.Behaviors;
 
 public class WildQuack : IQuackBehavior
 {
-  public void Perform()
+  public string Perform()
   {
-    Console.WriteLine("wild quack");
+    return "wild quack";
   }
 }
