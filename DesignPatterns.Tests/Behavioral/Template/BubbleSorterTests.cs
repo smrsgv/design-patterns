@@ -1,4 +1,4 @@
-﻿using DesignPatterns.Core.Behavioral.Template.BubbleSortAlgorithm;
+﻿using DesignPatterns.Behavioral.Template.BubbleSortAlgorithm;
 
 namespace DesignPatterns.Tests.Behavioral.Template;
 

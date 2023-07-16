@@ -1,5 +1,5 @@
-﻿using DesignPatterns.Core.Behavioral.Strategy.ShippingProviders.Providers;
-using DesignPatterns.Core.Behavioral.Strategy.ShippingProviders.Services;
+﻿using DesignPatterns.Behavioral.Strategy.ShippingProviders.Providers;
+using DesignPatterns.Behavioral.Strategy.ShippingProviders.Services;
 
 namespace DesignPatterns.Tests.Behavioral.Strategy;
 

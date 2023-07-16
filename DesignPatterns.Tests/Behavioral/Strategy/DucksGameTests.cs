@@ -1,5 +1,5 @@
-﻿using DesignPatterns.Core.Behavioral.Strategy.DucksGame.Behaviors;
-using DesignPatterns.Core.Behavioral.Strategy.DucksGame.Ducks;
+﻿using DesignPatterns.Behavioral.Strategy.DucksGame.Behaviors;
+using DesignPatterns.Behavioral.Strategy.DucksGame.Ducks;
 
 namespace DesignPatterns.Tests.Behavioral.Strategy;
 
